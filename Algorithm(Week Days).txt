@@ -1,7 +1,7 @@
 Step 1 : Ask the user to enter Day Number 
 Step 2 : Remainder = Day Number MOD 7
 Step 3 : Calculate Remainder 
-Step 4 : Use conditional statement to output the corresponing day according to remainder .
+Step 4 : Use conditional statement to compare the remainder with the defined values.
         Remainder = 0 - Sunday
         Remainder = 1 - Monday
         Remainder = 2 - Tuesday
@@ -9,3 +9,4 @@ Step 4 : Use conditional statement to output the corresponing day according to r
         Remainder = 4 - Thursday
         Remainder = 5 - Friday
         Remainder = 6 - Saturday
+Step 5 : Output the corresponding Week Day according to Remainder
