@@ -1,8 +1,10 @@
-Step 1 : Ask the user to input a number as 'n'
-Step 2 : Set  a variable indicating divisors as 2 (i=2) 
-Step 3 : Iterate through possible divisors using a while loop from 2 to n-1 . ( i <- (n-1 ))
-Step 4 : Remainder = number % n 
-Step 5 : Calculate the remainder of each divisor iterated (n%i=0)
-Step 6 : Use conditional statement if to check if the remainder is 0 .
-Step 7 : If remainder of number(n) with corresponding divisor(i)  is 0 .  Display " Number is non prime" and end the program , otherwise proceed to step 8 
-Step 8 : If remainder is number (n) with corresponding divisor (i) is not 0 , Display "Number is prime"
+Step 1 : Declare ' I ' as variable indicating the divisors
+Step 2 : Declare ' N ' as variable indicating the number value 
+Step 3 : Ask the user to input a number as ' N ' (N = User Input)
+Step 4 : Set  a variable indicating divisors ' I ' as 2 (I =2) 
+Step 5 : Iterate through possible divisors using a while loop from 2 to n-1 . 
+Step 6 : Remainder = N % I
+Step 7 : Calculate the remainder of each divisor iterated.
+Step 8 : Use conditional statement if to check if the remainder is 0 .
+Step 9 : If remainder of number(n) with corresponding divisor(i)  is 0 .  Display " Number is non prime" and end the program , otherwise proceed to step 8 
+Step 10 : If remainder of number (n) with corresponding divisor (i) is not 0 , Display "Number is prime"
