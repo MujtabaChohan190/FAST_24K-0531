@@ -1,17 +1,4 @@
-Step 1 : Declare Maximum , Minimum as Variables
-Step 2 : Ask User to enter number1
-Step 3 : Ask user to enter number2
-Step 4 : Use Conditional statment IF to check if number1 > number2
-Step 5 : if number1 > number2 , set maximum to number1 (maximum = number1) and set minimum to number2 (minimum = number2)
-Step 6 : Otherwise , Set  maximum to number2 and set minimum to number 1 
-Step 7 : Remainder = Maximum % Minimum . Calculate Remainder
-Step 8 :  Set Maximum = Minimum
-          Set  Minimum = remainder
-Step 9 : Repeat this process using while loop until minimum != 0
-Step 10 : Print "GCD is Maximum" once the condition is satisfied.
-
-
-
-         
-
-
+Step 1 : Ask the user to enter two numbers as Num1 and Num2 // GCD(18,32)
+Step 2 : If Num 2 = 0 , Output Num1 as the answer and stop , otherwise proceed to step 3 
+Step 3 : Divide Num1 by Num2 and assign the value of remainder to r 
+Step 4 : Set the value of n to m and value of r to n . Proceed to Step 1. // This will continue until remainder is 0.
