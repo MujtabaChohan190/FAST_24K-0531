@@ -19,7 +19,7 @@ void main() {
     }
     else
     {
-        Simple_Interest = (principle_amount * tax_rate * time_period)/100;
+        Simple_Interest = (principle_amount * tax_rate/100 * time_period)/100;
         printf("\nYour Interest becomes : %.2f" , Simple_Interest);
     }
 
