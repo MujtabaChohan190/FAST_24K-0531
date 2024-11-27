@@ -42,11 +42,11 @@ int main() {
   
     printf("Enter departure city: ");
     fgets(flight1.departureCity, sizeof(flight1.departureCity), stdin);
-    flight1.departureCity[strcspn(flight1.departureCity, "\n")] = '\0'; // Remove newline
+    flight1.departureCity[strcspn(flight1.departureCity, "\n")] = '\0'; 
   
     printf("Enter destination city: ");
     fgets(flight1.destinationCity, sizeof(flight1.destinationCity), stdin);
-    flight1.destinationCity[strcspn(flight1.destinationCity, "\n")] = '\0'; // Remove newline
+    flight1.destinationCity[strcspn(flight1.destinationCity, "\n")] = '\0'; 
   
     printf("Enter date (DD/MM/YYYY): ");
     fgets(flight1.date, sizeof(flight1.date), stdin);
