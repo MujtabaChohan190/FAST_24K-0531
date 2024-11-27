@@ -4,41 +4,37 @@
 // the array.
 
 #include <stdio.h>
-void print(int arr[], int n, int search)
-{
-  if (n == 0)
-  {
-    if (arr[n] == search)
-    {
-      printf("\nThe number is at index %d", n);
+
+
+int linearSearch(int arr[], int size, int target, int index) {
+    
+    if (index == size) {
+        return -1;  // Return -1 to indicate that the target is not in the array
     }
-    return;
-  }
-  else
-  {
-    print(arr, n - 1, search);
-    if (arr[n] == search)
-    {
-      printf("\nThe number is at index %d", n);
+
+    // If the current element matches the target, return the index
+    if (arr[index] == target) {
+        return index;
     }
-    else
-      return;
-  }
+
+    // Recursive call to search in the next index
+    return linearSearch(arr, size, target, index + 1);
 }
 
-int main()
-{
-  int n, search;
-  printf("Enter size of array ");
-  scanf("%d", &n);
-  int arr[n];
-  printf("\nEnter array elements ");
-  for (int i = 0; i < n; i++)
-  {
-    scanf("%d", &arr[i]);
-  }
-  printf("Enter the  number You want to search in the array ");
-  scanf("%d", &search);
-  print(arr, n - 1, search);
-  return 0;
+int main() {
+  
+    int arr[] = {2, 4, 6, 8, 10, 12, 14};
+    int size = sizeof(arr) / sizeof(arr[0]); // Number of elements in the array
+    int target = 10;
+
+    // Calling the recursive linearSearch function starting from index 0
+    int result = linearSearch(arr, size, target, 0);
+
+    if (result != -1) {
+        printf("Target %d found at index %d.\n", target, result);
+    } else {
+        printf("Target %d not found in the array.\n", target);
+    }
+
+    return 0;
 }
