@@ -1,3 +1,7 @@
+// Define a structure to represent a point in 2D space with x and y coordinates. Implement
+// functions to calculate the distance between two points and to check if a point lies within
+// a specific rectangular boundary.
+
 #include <stdio.h>
 #include <math.h>
 
