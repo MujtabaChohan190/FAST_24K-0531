@@ -1,5 +1,5 @@
 //1. Write a program that finds the second highest number in a float type array of 20
-elements using pointer.
+//elements using pointer.
 
 #include <iostream>
 using namespace std;
